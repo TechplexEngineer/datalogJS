@@ -2,13 +2,16 @@
   "name": "datalog",
   "version": "1.0.0",
   "description": "This is an experiment to rewrite a basic version of datascript. I want to get a sense of how it's like to write a query engine.",
-  "main": "index.js",
+  "main": "index.ts",
+  "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "run": "index.ts"
   },
   "dependencies": {
     "@babel/core": "^7.17.9",
     "@babel/preset-env": "^7.16.11",
-    "babel-jest": "^27.5.1"
+    "babel-jest": "^27.5.1",
+    "jest": "^28.1.0"
   }
 }
